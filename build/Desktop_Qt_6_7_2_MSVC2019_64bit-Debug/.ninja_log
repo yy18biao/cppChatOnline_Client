@@ -1,0 +1,17 @@
+# ninja log v5
+3	498	7464978371221321	cppWeChat_Client_autogen/timestamp	1cfc1c8aa839b531
+3	498	7464978371221321	cppWeChat_Client_autogen/mocs_compilation.cpp	1cfc1c8aa839b531
+3	498	7464978371221321	E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/timestamp	1cfc1c8aa839b531
+3	498	7464978371221321	E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/mocs_compilation.cpp	1cfc1c8aa839b531
+502	562	7464978372182509	cppWeChat_Client_autogen/EWIEGA46WW/qrc_resource.cpp	381a7f237cceb0f9
+502	562	7464978372182509	E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/EWIEGA46WW/qrc_resource.cpp	381a7f237cceb0f9
+587	744	7464978374082717	CMakeFiles/cppWeChat_Client.dir/cppWeChat_Client_autogen/EWIEGA46WW/qrc_resource.cpp.obj	96e3e6ae2af70065
+571	2429	7464978390914427	CMakeFiles/cppWeChat_Client.dir/MessageEditArea.cpp.obj	fcd4b64e04f6b40
+574	2704	7464978393679739	CMakeFiles/cppWeChat_Client.dir/MessageShowArea.cpp.obj	1cc1ff38a4a5d28f
+584	2865	7464978395281922	CMakeFiles/cppWeChat_Client.dir/FriendInfoArea.cpp.obj	c1afacb154e72919
+578	2890	7464978395500283	CMakeFiles/cppWeChat_Client.dir/SessionFriendArea.cpp.obj	da900d6cb6266884
+582	2916	7464978395784193	CMakeFiles/cppWeChat_Client.dir/UserInfoArea.cpp.obj	fac77bba4ae94a6d
+568	3016	7464978396678626	CMakeFiles/cppWeChat_Client.dir/MainWidget.cpp.obj	1e34927867cc4f5
+565	3030	7464978396882011	CMakeFiles/cppWeChat_Client.dir/main.cpp.obj	2796492d785e0f02
+562	3154	7464978398132260	CMakeFiles/cppWeChat_Client.dir/cppWeChat_Client_autogen/mocs_compilation.cpp.obj	35adba14585a7f81
+3154	3653	7464978402583414	cppWeChat_Client.exe	dd229b98856335fc
