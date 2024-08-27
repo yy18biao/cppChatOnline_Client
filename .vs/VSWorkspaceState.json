@@ -1,0 +1,13 @@
+{
+  "OutputFoldersPerTargetSystem": {
+    "Local Machine": [
+      "out\\build"
+    ]
+  },
+  "ExpandedNodes": [
+    "",
+    "\\cppWeChat_Client"
+  ],
+  "SelectedNode": "\\cppWeChat_Client\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}
