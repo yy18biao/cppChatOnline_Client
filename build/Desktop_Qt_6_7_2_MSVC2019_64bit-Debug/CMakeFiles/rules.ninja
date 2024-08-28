@@ -47,7 +47,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\ProgramData\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SE:\Code\cppWeChat_Client -BE:\Code\cppWeChat_Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug
+  command = D:\ProgramData\Qt\Tools\CMake_64\bin\cmake.exe --regenerate-during-build -SD:\Code\cppWeChat_Client -BD:\Code\cppWeChat_Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug
   description = Re-running CMake...
   generator = 1
 

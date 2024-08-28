@@ -8,10 +8,10 @@
 #include <QGridLayout>
 #include <QLineEdit>
 
-#include "SessionFriendArea.h"
-#include "MessageEditArea.h"
-#include "MessageShowArea.h"
-#include "UserInfoArea.h"
+#include "WindowMid/SessionFriendArea.h"
+#include "WindowRight/MessageEditArea.h"
+#include "WindowRight/MessageShowArea.h"
+#include "Dialog/UserInfoArea.h"
 #include "ui_MainWidget.h"
 
 class MainWidget : public QWidget

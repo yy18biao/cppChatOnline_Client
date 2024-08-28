@@ -1,18 +1,18 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen",
-	"CMAKE_BINARY_DIR" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Code/cppWeChat_Client",
+	"BUILD_DIR" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen",
+	"CMAKE_BINARY_DIR" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Code/cppWeChat_Client",
 	"CMAKE_EXECUTABLE" : "D:/ProgramData/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"E:/Code/cppWeChat_Client/CMakeLists.txt",
-		"E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
+		"D:/Code/cppWeChat_Client/CMakeLists.txt",
+		"D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake",
-		"E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
+		"D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake",
@@ -25,7 +25,7 @@
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC-CXX.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake",
-		"E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
+		"D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeRCInformation.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake",
 		"D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
@@ -312,60 +312,66 @@
 		"D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
-		"E:/Code/cppWeChat_Client/resource.qrc"
+		"D:/Code/cppWeChat_Client/resource.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "E:/Code/cppWeChat_Client",
+	"CMAKE_SOURCE_DIR" : "D:/Code/cppWeChat_Client",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/deps",
+	"DEP_FILE" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "cppWeChat_Client_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"E:/Code/cppWeChat_Client/FriendInfoArea.h",
+			"D:/Code/cppWeChat_Client/Dialog/FriendInfoArea.h",
 			"MU",
-			"EWIEGA46WW/moc_FriendInfoArea.cpp",
+			"M7I2D2MG4X/moc_FriendInfoArea.cpp",
 			null
 		],
 		[
-			"E:/Code/cppWeChat_Client/MainWidget.h",
+			"D:/Code/cppWeChat_Client/Dialog/SessionTailMoreArea.h",
+			"MU",
+			"M7I2D2MG4X/moc_SessionTailMoreArea.cpp",
+			null
+		],
+		[
+			"D:/Code/cppWeChat_Client/Dialog/UserInfoArea.h",
+			"MU",
+			"M7I2D2MG4X/moc_UserInfoArea.cpp",
+			null
+		],
+		[
+			"D:/Code/cppWeChat_Client/MainWidget.h",
 			"MU",
 			"EWIEGA46WW/moc_MainWidget.cpp",
 			null
 		],
 		[
-			"E:/Code/cppWeChat_Client/MessageEditArea.h",
+			"D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.h",
 			"MU",
-			"EWIEGA46WW/moc_MessageEditArea.cpp",
+			"S4234DMW3T/moc_SessionFriendArea.cpp",
 			null
 		],
 		[
-			"E:/Code/cppWeChat_Client/MessageShowArea.h",
+			"D:/Code/cppWeChat_Client/WindowRight/MessageEditArea.h",
 			"MU",
-			"EWIEGA46WW/moc_MessageShowArea.cpp",
+			"GHNZ6IFN6S/moc_MessageEditArea.cpp",
 			null
 		],
 		[
-			"E:/Code/cppWeChat_Client/SessionFriendArea.h",
+			"D:/Code/cppWeChat_Client/WindowRight/MessageShowArea.h",
 			"MU",
-			"EWIEGA46WW/moc_SessionFriendArea.cpp",
+			"GHNZ6IFN6S/moc_MessageShowArea.cpp",
 			null
 		],
 		[
-			"E:/Code/cppWeChat_Client/UserInfoArea.h",
-			"MU",
-			"EWIEGA46WW/moc_UserInfoArea.cpp",
-			null
-		],
-		[
-			"E:/Code/cppWeChat_Client/data.h",
+			"D:/Code/cppWeChat_Client/data.h",
 			"MU",
 			"EWIEGA46WW/moc_data.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/include",
-	"MOC_COMPILATION_FILE" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -410,21 +416,34 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 10,
-	"PARSE_CACHE_FILE" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/cppWeChat_Client_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/cppWeChat_Client_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "D:/ProgramData/Qt/6.7.2/msvc2019_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "D:/ProgramData/Qt/6.7.2/msvc2019_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/cppWeChat_Client_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/cppWeChat_Client_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "E:/Code/cppWeChat_Client/FriendInfoArea.cpp", "MU", null ],
-		[ "E:/Code/cppWeChat_Client/MainWidget.cpp", "MU", null ],
-		[ "E:/Code/cppWeChat_Client/MessageEditArea.cpp", "MU", null ],
-		[ "E:/Code/cppWeChat_Client/MessageShowArea.cpp", "MU", null ],
-		[ "E:/Code/cppWeChat_Client/SessionFriendArea.cpp", "MU", null ],
-		[ "E:/Code/cppWeChat_Client/UserInfoArea.cpp", "MU", null ],
-		[ "E:/Code/cppWeChat_Client/main.cpp", "MU", null ]
+		[ "D:/Code/cppWeChat_Client/Dialog/FriendInfoArea.cpp", "MU", null ],
+		[ "D:/Code/cppWeChat_Client/Dialog/SessionTailMoreArea.cpp", "MU", null ],
+		[ "D:/Code/cppWeChat_Client/Dialog/UserInfoArea.cpp", "MU", null ],
+		[ "D:/Code/cppWeChat_Client/MainWidget.cpp", "MU", null ],
+		[
+			"D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/cppWeChat_Client/WindowRight/MessageEditArea.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Code/cppWeChat_Client/WindowRight/MessageShowArea.cpp",
+			"MU",
+			null
+		],
+		[ "D:/Code/cppWeChat_Client/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

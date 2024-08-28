@@ -1,4 +1,4 @@
-# Install script for directory: E:/Code/cppWeChat_Client
+# Install script for directory: D:/Code/cppWeChat_Client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/cppWeChat_Client.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -44,5 +44,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,8 +1,0 @@
-E:/Code/cppWeChat_Client/build/CMakeFiles/cppWeChat_Client.dir
-E:/Code/cppWeChat_Client/build/CMakeFiles/edit_cache.dir
-E:/Code/cppWeChat_Client/build/CMakeFiles/rebuild_cache.dir
-E:/Code/cppWeChat_Client/build/CMakeFiles/list_install_components.dir
-E:/Code/cppWeChat_Client/build/CMakeFiles/install.dir
-E:/Code/cppWeChat_Client/build/CMakeFiles/install/local.dir
-E:/Code/cppWeChat_Client/build/CMakeFiles/cppWeChat_Client_autogen_timestamp_deps.dir
-E:/Code/cppWeChat_Client/build/CMakeFiles/cppWeChat_Client_autogen.dir

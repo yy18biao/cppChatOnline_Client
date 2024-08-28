@@ -23,13 +23,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(cppWeChat_Client
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        MessageEditArea.h MessageEditArea.cpp
-        MessageShowArea.h MessageShowArea.cpp
-        SessionFriendArea.h SessionFriendArea.cpp
-        UserInfoArea.h UserInfoArea.cpp
-        FriendInfoArea.h FriendInfoArea.cpp
         resource.qrc
         data.h
+        WindowMid/SessionFriendArea.h
+        WindowRight/MessageEditArea.h WindowRight/MessageShowArea.h
+        Dialog/FriendInfoArea.h Dialog/SessionTailMoreArea.h Dialog/UserInfoArea.h
+        Dialog/FriendInfoArea.cpp Dialog/SessionTailMoreArea.cpp Dialog/UserInfoArea.cpp
+        WindowMid/SessionFriendArea.cpp
+        WindowRight/MessageEditArea.cpp WindowRight/MessageShowArea.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET cppWeChat_Client APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

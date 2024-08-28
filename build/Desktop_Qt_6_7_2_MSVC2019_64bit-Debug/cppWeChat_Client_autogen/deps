@@ -1,4 +1,26 @@
 cppWeChat_Client_autogen/timestamp: \
+	D:/Code/cppWeChat_Client/CMakeLists.txt \
+	D:/Code/cppWeChat_Client/Dialog/FriendInfoArea.cpp \
+	D:/Code/cppWeChat_Client/Dialog/FriendInfoArea.h \
+	D:/Code/cppWeChat_Client/Dialog/SessionTailMoreArea.cpp \
+	D:/Code/cppWeChat_Client/Dialog/SessionTailMoreArea.h \
+	D:/Code/cppWeChat_Client/Dialog/UserInfoArea.cpp \
+	D:/Code/cppWeChat_Client/Dialog/UserInfoArea.h \
+	D:/Code/cppWeChat_Client/MainWidget.cpp \
+	D:/Code/cppWeChat_Client/MainWidget.h \
+	D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.cpp \
+	D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.h \
+	D:/Code/cppWeChat_Client/WindowRight/MessageEditArea.cpp \
+	D:/Code/cppWeChat_Client/WindowRight/MessageEditArea.h \
+	D:/Code/cppWeChat_Client/WindowRight/MessageShowArea.cpp \
+	D:/Code/cppWeChat_Client/WindowRight/MessageShowArea.h \
+	D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
+	D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
+	D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
+	D:/Code/cppWeChat_Client/data.h \
+	D:/Code/cppWeChat_Client/main.cpp \
+	D:/Code/cppWeChat_Client/resource.qrc \
 	D:/ProgramData/Qt/6.7.2/msvc2019_64/include/QtCore/QDebug \
 	D:/ProgramData/Qt/6.7.2/msvc2019_64/include/QtCore/QFile \
 	D:/ProgramData/Qt/6.7.2/msvc2019_64/include/QtCore/QFileInfo \
@@ -462,26 +484,5 @@ cppWeChat_Client_autogen/timestamp: \
 	D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake \
 	D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	D:/ProgramData/Qt/Tools/CMake_64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
-	E:/Code/cppWeChat_Client/CMakeLists.txt \
-	E:/Code/cppWeChat_Client/FriendInfoArea.cpp \
-	E:/Code/cppWeChat_Client/FriendInfoArea.h \
-	E:/Code/cppWeChat_Client/MainWidget.cpp \
-	E:/Code/cppWeChat_Client/MainWidget.h \
-	E:/Code/cppWeChat_Client/MessageEditArea.cpp \
-	E:/Code/cppWeChat_Client/MessageEditArea.h \
-	E:/Code/cppWeChat_Client/MessageShowArea.cpp \
-	E:/Code/cppWeChat_Client/MessageShowArea.h \
-	E:/Code/cppWeChat_Client/SessionFriendArea.cpp \
-	E:/Code/cppWeChat_Client/SessionFriendArea.h \
-	E:/Code/cppWeChat_Client/SessionTailMoreArea.h \
-	E:/Code/cppWeChat_Client/UserInfoArea.cpp \
-	E:/Code/cppWeChat_Client/UserInfoArea.h \
-	E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
-	E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeRCCompiler.cmake \
-	E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
-	E:/Code/cppWeChat_Client/data.h \
-	E:/Code/cppWeChat_Client/main.cpp \
-	E:/Code/cppWeChat_Client/resource.qrc \
-	E:/Code/cppWeChat_Client/MainWidget.ui \
+	D:/Code/cppWeChat_Client/MainWidget.ui \
 	D:/ProgramData/Qt/Tools/CMake_64/bin/cmake.exe

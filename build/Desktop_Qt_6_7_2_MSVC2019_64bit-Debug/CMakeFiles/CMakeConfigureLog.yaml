@@ -18,7 +18,7 @@ events:
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: D:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/cl.exe 
-      Build flags: -DQT_QML_DEBUG
+      Build flags: 
       Id flags:  
       
       The output was:
@@ -39,7 +39,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
+        D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/3.29.3/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -51,7 +51,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        注意: 包含文件:  E:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        注意: 包含文件:  D:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "注意: 包含文件:  "
   -
@@ -63,10 +63,10 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-ki74ip"
-      binary: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-ki74ip"
+      source: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-qgzvda"
+      binary: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-qgzvda"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -74,11 +74,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-ki74ip'
+        Change Dir: 'D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-qgzvda'
         
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_98bcc
-        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_98bcc.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_98bcc.dir\\ /FS -c D:\\ProgramData\\Qt\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_98bcc.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_98bcc.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_98bcc.exe /implib:cmTC_98bcc.lib /pdb:cmTC_98bcc.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0e9fa
+        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0e9fa.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_0e9fa.dir\\ /FS -c D:\\ProgramData\\Qt\\Tools\\CMake_64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0e9fa.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0e9fa.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_0e9fa.exe /implib:cmTC_0e9fa.lib /pdb:cmTC_0e9fa.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -112,10 +112,10 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-5smy9m"
-      binary: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-5smy9m"
+      source: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6ywms6"
+      binary: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6ywms6"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_MODULE_PATH: "D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
@@ -123,13 +123,13 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-5smy9m'
+        Change Dir: 'D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-6ywms6'
         
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ac194
-        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ac194.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_ac194.dir\\ /FS -c E:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5smy9m\\src.cxx
-        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_ac194.dir/src.cxx.obj 
-        "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ac194.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_ac194.dir\\ /FS -c E:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5smy9m\\src.cxx
-        E:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5smy9m\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_3d1e8
+        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_3d1e8.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_3d1e8.dir\\ /FS -c D:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6ywms6\\src.cxx
+        \x1b[31mFAILED: \x1b[0mCMakeFiles/cmTC_3d1e8.dir/src.cxx.obj 
+        "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_3d1e8.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_3d1e8.dir\\ /FS -c D:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6ywms6\\src.cxx
+        D:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6ywms6\\src.cxx(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
@@ -147,10 +147,10 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-oe6zwc"
-      binary: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-oe6zwc"
+      source: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-iqq259"
+      binary: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-iqq259"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_MODULE_PATH: "D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
@@ -158,14 +158,14 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-oe6zwc'
+        Change Dir: 'D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-iqq259'
         
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_85aa2
-        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_85aa2.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_85aa2.dir\\ /FS -c E:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-oe6zwc\\CheckFunctionExists.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_85aa2.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_85aa2.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_85aa2.exe /implib:cmTC_85aa2.lib /pdb:cmTC_85aa2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        \x1b[31mFAILED: \x1b[0mcmTC_85aa2.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_85aa2.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_85aa2.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_85aa2.exe /implib:cmTC_85aa2.lib /pdb:cmTC_85aa2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_85aa2.dir\\CheckFunctionExists.cxx.obj /out:cmTC_85aa2.exe /implib:cmTC_85aa2.lib /pdb:cmTC_85aa2.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_85aa2.dir/intermediate.manifest CMakeFiles\\cmTC_85aa2.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_33639
+        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_33639.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_33639.dir\\ /FS -c D:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-iqq259\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_33639.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_33639.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_33639.exe /implib:cmTC_33639.lib /pdb:cmTC_33639.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_33639.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_33639.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_33639.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_33639.exe /implib:cmTC_33639.lib /pdb:cmTC_33639.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_33639.dir\\CheckFunctionExists.cxx.obj /out:cmTC_33639.exe /implib:cmTC_33639.lib /pdb:cmTC_33639.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_33639.dir/intermediate.manifest CMakeFiles\\cmTC_33639.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthreads.lib”\x0d
         ninja: build stopped: subcommand failed.
         
@@ -184,10 +184,10 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-phibyp"
-      binary: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-phibyp"
+      source: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-hh6ouq"
+      binary: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-hh6ouq"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_MODULE_PATH: "D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
@@ -195,14 +195,14 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-phibyp'
+        Change Dir: 'D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-hh6ouq'
         
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_e8239
-        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_e8239.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_e8239.dir\\ /FS -c E:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-phibyp\\CheckFunctionExists.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e8239.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_e8239.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e8239.exe /implib:cmTC_e8239.lib /pdb:cmTC_e8239.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        \x1b[31mFAILED: \x1b[0mcmTC_e8239.exe 
-        C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e8239.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_e8239.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_e8239.exe /implib:cmTC_e8239.lib /pdb:cmTC_e8239.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
-        LINK Pass 1: command "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e8239.dir\\CheckFunctionExists.cxx.obj /out:cmTC_e8239.exe /implib:cmTC_e8239.lib /pdb:cmTC_e8239.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e8239.dir/intermediate.manifest CMakeFiles\\cmTC_e8239.dir/manifest.res" failed (exit code 1104) with the following output:
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0f7c8
+        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP   /DWIN32 /D_WINDOWS /GR /EHsc -DCHECK_FUNCTION_EXISTS=pthread_create /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_0f7c8.dir\\CheckFunctionExists.cxx.obj /FdCMakeFiles\\cmTC_0f7c8.dir\\ /FS -c D:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-hh6ouq\\CheckFunctionExists.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0f7c8.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0f7c8.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_0f7c8.exe /implib:cmTC_0f7c8.lib /pdb:cmTC_0f7c8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        \x1b[31mFAILED: \x1b[0mcmTC_0f7c8.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0f7c8.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_0f7c8.dir\\CheckFunctionExists.cxx.obj  /out:cmTC_0f7c8.exe /implib:cmTC_0f7c8.lib /pdb:cmTC_0f7c8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0f7c8.dir\\CheckFunctionExists.cxx.obj /out:cmTC_0f7c8.exe /implib:cmTC_0f7c8.lib /pdb:cmTC_0f7c8.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_0f7c8.dir/intermediate.manifest CMakeFiles\\cmTC_0f7c8.dir/manifest.res" failed (exit code 1104) with the following output:
         LINK : fatal error LNK1104: 无法打开文件“pthread.lib”\x0d
         ninja: build stopped: subcommand failed.
         
@@ -226,10 +226,10 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-gxyhd0"
-      binary: "E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-gxyhd0"
+      source: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-8132o1"
+      binary: "D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-8132o1"
     cmakeVariables:
-      CMAKE_CXX_FLAGS: "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
       CMAKE_MODULE_PATH: "D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;D:/ProgramData/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6/3rdparty/kwin"
@@ -237,11 +237,11 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'E:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-gxyhd0'
+        Change Dir: 'D:/Code/cppWeChat_Client/build/Desktop_Qt_6_7_2_MSVC2019_64bit-Debug/CMakeFiles/CMakeScratch/TryCompile-8132o1'
         
-        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_ca978
-        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DHAVE_STDATOMIC  -DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_ca978.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_ca978.dir\\ /FS -c E:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-gxyhd0\\src.cxx
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_ca978.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_ca978.dir\\src.cxx.obj  /out:cmTC_ca978.exe /implib:cmTC_ca978.lib /pdb:cmTC_ca978.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): "D:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_9d6d3
+        [1/2] "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\cl.exe"  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /GR /EHsc  /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd /showIncludes /FoCMakeFiles\\cmTC_9d6d3.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_9d6d3.dir\\ /FS -c D:\\Code\\cppWeChat_Client\\build\\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8132o1\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\ProgramData\\Qt\\Tools\\CMake_64\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_9d6d3.dir --rc="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\rc.exe" --mt="D:\\Windows Kits\\10\\bin\\10.0.22621.0\\x64\\mt.exe" --manifests  -- "D:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\link.exe" /nologo CMakeFiles\\cmTC_9d6d3.dir\\src.cxx.obj  /out:cmTC_9d6d3.exe /implib:cmTC_9d6d3.lib /pdb:cmTC_9d6d3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...
