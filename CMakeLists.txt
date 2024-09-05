@@ -31,6 +31,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Dialog/FriendInfoArea.cpp Dialog/SessionTailMoreArea.cpp Dialog/UserInfoArea.cpp
         WindowMid/SessionFriendArea.cpp
         WindowRight/MessageEditArea.cpp WindowRight/MessageShowArea.cpp
+        WindowMid/SessionFriendItem.h WindowMid/SessionFriendItem.cpp
+        WindowMid/SessionItem.h WindowMid/SessionItem.cpp
+        WindowMid/FriendItem.h WindowMid/FriendItem.cpp
+        WindowMid/FriendApplyItem.h WindowMid/FriendApplyItem.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET cppWeChat_Client APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

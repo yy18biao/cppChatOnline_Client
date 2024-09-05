@@ -130,6 +130,42 @@ build CMakeFiles\cppWeChat_Client.dir\WindowRight\MessageShowArea.cpp.obj: CXX_C
   TARGET_COMPILE_PDB = CMakeFiles\cppWeChat_Client.dir\
   TARGET_PDB = cppWeChat_Client.pdb
 
+build CMakeFiles\cppWeChat_Client.dir\WindowMid\SessionFriendItem.cpp.obj: CXX_COMPILER__cppWeChat_Client_unscanned_Debug D$:\Code\cppWeChat_Client\WindowMid\SessionFriendItem.cpp || cmake_object_order_depends_target_cppWeChat_Client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -ID:\Code\cppWeChat_Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\cppWeChat_Client_autogen\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtCore -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtWidgets -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\cppWeChat_Client.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppWeChat_Client.dir\WindowMid
+  TARGET_COMPILE_PDB = CMakeFiles\cppWeChat_Client.dir\
+  TARGET_PDB = cppWeChat_Client.pdb
+
+build CMakeFiles\cppWeChat_Client.dir\WindowMid\SessionItem.cpp.obj: CXX_COMPILER__cppWeChat_Client_unscanned_Debug D$:\Code\cppWeChat_Client\WindowMid\SessionItem.cpp || cmake_object_order_depends_target_cppWeChat_Client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -ID:\Code\cppWeChat_Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\cppWeChat_Client_autogen\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtCore -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtWidgets -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\cppWeChat_Client.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppWeChat_Client.dir\WindowMid
+  TARGET_COMPILE_PDB = CMakeFiles\cppWeChat_Client.dir\
+  TARGET_PDB = cppWeChat_Client.pdb
+
+build CMakeFiles\cppWeChat_Client.dir\WindowMid\FriendItem.cpp.obj: CXX_COMPILER__cppWeChat_Client_unscanned_Debug D$:\Code\cppWeChat_Client\WindowMid\FriendItem.cpp || cmake_object_order_depends_target_cppWeChat_Client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -ID:\Code\cppWeChat_Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\cppWeChat_Client_autogen\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtCore -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtWidgets -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\cppWeChat_Client.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppWeChat_Client.dir\WindowMid
+  TARGET_COMPILE_PDB = CMakeFiles\cppWeChat_Client.dir\
+  TARGET_PDB = cppWeChat_Client.pdb
+
+build CMakeFiles\cppWeChat_Client.dir\WindowMid\FriendApplyItem.cpp.obj: CXX_COMPILER__cppWeChat_Client_unscanned_Debug D$:\Code\cppWeChat_Client\WindowMid\FriendApplyItem.cpp || cmake_object_order_depends_target_cppWeChat_Client
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
+  INCLUDES = -ID:\Code\cppWeChat_Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\cppWeChat_Client_autogen\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtCore -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\mkspecs\win32-msvc -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtWidgets -external:ID:\ProgramData\Qt\6.7.2\msvc2019_64\include\QtGui -external:W0
+  OBJECT_DIR = CMakeFiles\cppWeChat_Client.dir
+  OBJECT_FILE_DIR = CMakeFiles\cppWeChat_Client.dir\WindowMid
+  TARGET_COMPILE_PDB = CMakeFiles\cppWeChat_Client.dir\
+  TARGET_PDB = cppWeChat_Client.pdb
+
 build CMakeFiles\cppWeChat_Client.dir\cppWeChat_Client_autogen\EWIEGA46WW\qrc_resource.cpp.obj: CXX_COMPILER__cppWeChat_Client_unscanned_Debug D$:\Code\cppWeChat_Client\build\Desktop_Qt_6_7_2_MSVC2019_64bit-Debug\cppWeChat_Client_autogen\EWIEGA46WW\qrc_resource.cpp || cmake_object_order_depends_target_cppWeChat_Client
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd -Zc:__cplusplus -permissive- -utf-8
@@ -147,7 +183,7 @@ build CMakeFiles\cppWeChat_Client.dir\cppWeChat_Client_autogen\EWIEGA46WW\qrc_re
 #############################################
 # Link the executable cppWeChat_Client.exe
 
-build cppWeChat_Client.exe: CXX_EXECUTABLE_LINKER__cppWeChat_Client_Debug CMakeFiles\cppWeChat_Client.dir\cppWeChat_Client_autogen\mocs_compilation.cpp.obj CMakeFiles\cppWeChat_Client.dir\main.cpp.obj CMakeFiles\cppWeChat_Client.dir\MainWidget.cpp.obj CMakeFiles\cppWeChat_Client.dir\Dialog\FriendInfoArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\Dialog\SessionTailMoreArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\Dialog\UserInfoArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowMid\SessionFriendArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowRight\MessageEditArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowRight\MessageShowArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\cppWeChat_Client_autogen\EWIEGA46WW\qrc_resource.cpp.obj | D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Widgetsd.lib D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Guid.lib D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Cored.lib D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPointd.lib || cppWeChat_Client_autogen cppWeChat_Client_autogen_timestamp_deps
+build cppWeChat_Client.exe: CXX_EXECUTABLE_LINKER__cppWeChat_Client_Debug CMakeFiles\cppWeChat_Client.dir\cppWeChat_Client_autogen\mocs_compilation.cpp.obj CMakeFiles\cppWeChat_Client.dir\main.cpp.obj CMakeFiles\cppWeChat_Client.dir\MainWidget.cpp.obj CMakeFiles\cppWeChat_Client.dir\Dialog\FriendInfoArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\Dialog\SessionTailMoreArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\Dialog\UserInfoArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowMid\SessionFriendArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowRight\MessageEditArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowRight\MessageShowArea.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowMid\SessionFriendItem.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowMid\SessionItem.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowMid\FriendItem.cpp.obj CMakeFiles\cppWeChat_Client.dir\WindowMid\FriendApplyItem.cpp.obj CMakeFiles\cppWeChat_Client.dir\cppWeChat_Client_autogen\EWIEGA46WW\qrc_resource.cpp.obj | D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Widgetsd.lib D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Guid.lib D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Cored.lib D$:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPointd.lib || cppWeChat_Client_autogen cppWeChat_Client_autogen_timestamp_deps
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows
   LINK_LIBRARIES = D:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Widgetsd.lib  D:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Guid.lib  D:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6Cored.lib  mpr.lib  userenv.lib  D:\ProgramData\Qt\6.7.2\msvc2019_64\lib\Qt6EntryPointd.lib  shell32.lib  d3d11.lib  dxgi.lib  dxguid.lib  d3d12.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

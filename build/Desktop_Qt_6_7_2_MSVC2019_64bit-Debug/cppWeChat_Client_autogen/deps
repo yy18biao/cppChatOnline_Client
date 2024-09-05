@@ -8,8 +8,16 @@ cppWeChat_Client_autogen/timestamp: \
 	D:/Code/cppWeChat_Client/Dialog/UserInfoArea.h \
 	D:/Code/cppWeChat_Client/MainWidget.cpp \
 	D:/Code/cppWeChat_Client/MainWidget.h \
+	D:/Code/cppWeChat_Client/WindowMid/FriendApplyItem.cpp \
+	D:/Code/cppWeChat_Client/WindowMid/FriendApplyItem.h \
+	D:/Code/cppWeChat_Client/WindowMid/FriendItem.cpp \
+	D:/Code/cppWeChat_Client/WindowMid/FriendItem.h \
 	D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.cpp \
 	D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.h \
+	D:/Code/cppWeChat_Client/WindowMid/SessionFriendItem.cpp \
+	D:/Code/cppWeChat_Client/WindowMid/SessionFriendItem.h \
+	D:/Code/cppWeChat_Client/WindowMid/SessionItem.cpp \
+	D:/Code/cppWeChat_Client/WindowMid/SessionItem.h \
 	D:/Code/cppWeChat_Client/WindowRight/MessageEditArea.cpp \
 	D:/Code/cppWeChat_Client/WindowRight/MessageEditArea.h \
 	D:/Code/cppWeChat_Client/WindowRight/MessageShowArea.cpp \

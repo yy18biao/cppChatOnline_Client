@@ -345,9 +345,33 @@
 			null
 		],
 		[
+			"D:/Code/cppWeChat_Client/WindowMid/FriendApplyItem.h",
+			"MU",
+			"S4234DMW3T/moc_FriendApplyItem.cpp",
+			null
+		],
+		[
+			"D:/Code/cppWeChat_Client/WindowMid/FriendItem.h",
+			"MU",
+			"S4234DMW3T/moc_FriendItem.cpp",
+			null
+		],
+		[
 			"D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.h",
 			"MU",
 			"S4234DMW3T/moc_SessionFriendArea.cpp",
+			null
+		],
+		[
+			"D:/Code/cppWeChat_Client/WindowMid/SessionFriendItem.h",
+			"MU",
+			"S4234DMW3T/moc_SessionFriendItem.cpp",
+			null
+		],
+		[
+			"D:/Code/cppWeChat_Client/WindowMid/SessionItem.h",
+			"MU",
+			"S4234DMW3T/moc_SessionItem.cpp",
 			null
 		],
 		[
@@ -428,11 +452,19 @@
 		[ "D:/Code/cppWeChat_Client/Dialog/SessionTailMoreArea.cpp", "MU", null ],
 		[ "D:/Code/cppWeChat_Client/Dialog/UserInfoArea.cpp", "MU", null ],
 		[ "D:/Code/cppWeChat_Client/MainWidget.cpp", "MU", null ],
+		[ "D:/Code/cppWeChat_Client/WindowMid/FriendApplyItem.cpp", "MU", null ],
+		[ "D:/Code/cppWeChat_Client/WindowMid/FriendItem.cpp", "MU", null ],
 		[
 			"D:/Code/cppWeChat_Client/WindowMid/SessionFriendArea.cpp",
 			"MU",
 			null
 		],
+		[
+			"D:/Code/cppWeChat_Client/WindowMid/SessionFriendItem.cpp",
+			"MU",
+			null
+		],
+		[ "D:/Code/cppWeChat_Client/WindowMid/SessionItem.cpp", "MU", null ],
 		[
 			"D:/Code/cppWeChat_Client/WindowRight/MessageEditArea.cpp",
 			"MU",
